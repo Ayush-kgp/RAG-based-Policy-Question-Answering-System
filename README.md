@@ -46,16 +46,11 @@ This comparison demonstrates how prompt constraints significantly improve reliab
 
 ## Architecture Overview
 
-Policy Documents
-↓
-Chunking + Metadata (data_loader.py)
-↓
-Embeddings + Vector Store (FAISS)
-↓
-Semantic Retrieval (Top-k)
-↓
-Prompt Construction
-↓
+Policy Documents -> 
+Chunking + Metadata (data_loader.py) ->
+Embeddings + Vector Store (FAISS) ->
+Semantic Retrieval (Top-k) ->
+Prompt Construction ->
 LLM Answer Generation
 
 ---
@@ -140,26 +135,22 @@ Advanced optimizations (reranking, schema validation) were intentionally avoided
 ```bash
 python -m venv venv
 venv\Scripts\activate
- ---
+```
 ### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
-
----
-
+```
 ### 3. Set API key
 ```bash
 OPENAI_API_KEY=your_api_key_here
-
----
+```
 ### 4. Run evaluation
 
 ```bash
 python evaluate.py
 
----
-
-### ✅ Key Trade-offs and Future Improvements (polished)
+```
+### Key Trade-offs and Future Improvements (polished)
 
 ```md
 ## Key Trade-offs and Future Improvements

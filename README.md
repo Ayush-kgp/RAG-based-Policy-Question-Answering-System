@@ -28,6 +28,19 @@ Each document is stored separately to preserve service-specific context.
 To evaluate the impact of prompt engineering, we compared two prompt versions using the same retrieval settings (k = 8).
 
 **Prompt v1 (Initial):**
+
+**Prompt text:**
+```text
+Answer the question using the following context.
+
+Context:
+{context}
+
+Question:
+{question}
+
+Answer:
+
 - Basic context-based QA
 - No explicit grounding or fallback rules
 - Resulted in unsafe extrapolation and hallucinations
@@ -35,9 +48,28 @@ To evaluate the impact of prompt engineering, we compared two prompt versions us
 **Observed issues with Prompt v1:**
 - Hallucinated answers for unanswerable questions (e.g., courier partner for intracity deliveries)
 - Added external suggestions not present in the documents (e.g., advising users to contact customer service)
-- No clear distinction between answerable and unanswerable cases
+- Gave wrong answer to one of the questions
 
 **Prompt v2 (Improved):**
+
+**Prompt text:**
+You are a question-answering assistant for company policy documents.
+
+Rules:
+1. Answer ONLY using the provided context.
+2. If the answer is not present in the context, say:
+   "The information is not available in the provided documents."
+3. Do NOT make assumptions or add external knowledge.
+4. Keep the answer clear and concise.
+
+Context:
+{context}
+
+Question:
+{question}
+
+Answer:
+
 - Enforced strict grounding to retrieved context
 - Explicit fallback for missing information
 - Prevented hallucinations and unsafe assumptions

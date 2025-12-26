@@ -1,4 +1,4 @@
-<img width="2239" height="1399" alt="image" src="https://github.com/user-attachments/assets/ba34aa01-ec3f-4f11-bd0e-eb5de351b29a" /># RAG-based-Policy-Question-Answering-System
+# RAG-based-Policy-Question-Answering-System
 
 This project implements a **Retrieval-Augmented Generation (RAG)** system to answer questions from company policy documents. The system retrieves relevant document chunks using semantic search and generates grounded answers using a Large Language Model (LLM), with a strong focus on **hallucination avoidance**, **prompt engineering**, and **evaluation**.
 
@@ -79,54 +79,6 @@ This improves retrieval accuracy and traceability.
 
 ---
 
-## Prompt Engineering (Very Important)
-
-### Prompt v1 (Initial)
-
-- Basic context-based QA prompt
-- No explicit grounding rules
-- No fallback instruction for missing information
-
-This version sometimes resulted in unsafe extrapolation and hallucinations.
-
----
-
-### Prompt v2 (Improved – Used in Pipeline)
-
-Enhancements introduced in Prompt v2:
-- Explicit instruction to answer **only from retrieved context**
-- Clear fallback for missing information:
-  > *"The information is not available in the provided documents."*
-- Prohibition of external knowledge or assumptions
-- Clear and concise answer requirement
-
-This significantly improved reliability and hallucination control.
-
----
-
-## Prompt Comparison (v1 vs v2)
-
-To evaluate the impact of prompt engineering, both prompts were tested using the same retrieval settings (`k = 8`).
-
-### Prompt v1 (Initial)
-- Basic context-based QA
-- No explicit grounding or fallback rules
-- Resulted in unsafe extrapolation and hallucinations
-
-**Observed issues with Prompt v1:**
-- Hallucinated answers for unanswerable questions (e.g., courier partner for intracity deliveries)
-- Added external suggestions not present in the documents (e.g., advising users to contact customer service)
-- No clear distinction between answerable and unanswerable cases
-
-### Prompt v2 (Improved)
-- Enforced strict grounding to retrieved context
-- Explicit fallback for missing information
-- Prevented hallucinations and unsafe assumptions
-
-This comparison demonstrates how prompt constraints significantly improve safety and reliability in RAG-based systems.
-
----
-
 ## Retrieval Strategy
 
 - **Vector Store:** FAISS (lightweight and cross-platform)
@@ -188,19 +140,35 @@ Advanced optimizations (reranking, schema validation) were intentionally avoided
 ```bash
 python -m venv venv
 venv\Scripts\activate
-
-2. Install dependencies
-
+ ---
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
 
-3. Set API key
+---
 
-Create a .env file in the project root:
-
+### 3. Set API key
+```bash
 OPENAI_API_KEY=your_api_key_here
 
-4. Run evaluation
+---
+### 4. Run evaluation
 
+```bash
 python evaluate.py
 
-5. 
+---
+
+### ✅ Key Trade-offs and Future Improvements (polished)
+
+```md
+## Key Trade-offs and Future Improvements
+
+**FAISS vs. Persistent Vector Databases:**  
+FAISS was chosen for its lightweight setup and reliability in a local experimentation context. With more time and production requirements, a persistent vector database such as Chroma or Pinecone would be preferred for scalability and persistence.
+
+**Top-K Retrieval:**  
+The system currently uses `k = 8`, which improves recall but increases token usage. A reranking step using a cross-encoder could improve precision by selecting only the top 2–3 most relevant chunks for generation.
+
+**Hybrid Search:**  
+Future iterations could combine keyword-based retrieval (e.g., BM25) with semantic search to better handle specific entity-based queries such as vehicle names or regulatory terms.

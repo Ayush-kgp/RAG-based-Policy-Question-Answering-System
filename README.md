@@ -49,10 +49,11 @@ Answer:
 - Hallucinated answers for unanswerable questions (e.g., courier partner for intracity deliveries)
 - Added external suggestions not present in the documents (e.g., advising users to contact customer service)
 - Gave wrong answer to one of the questions
-
+```
 **Prompt v2 (Improved):**
 
 **Prompt text:**
+```text
 You are a question-answering assistant for company policy documents.
 
 Rules:
@@ -69,6 +70,7 @@ Question:
 {question}
 
 Answer:
+```
 
 - Enforced strict grounding to retrieved context
 - Explicit fallback for missing information

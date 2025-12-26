@@ -1,0 +1,110 @@
+Privacy Policy
+We at Delhivery Limited and our affiliates (hereinafter referred to as “Delhivery”, “we”, “us” or “our”) consider customer trust as our top priority and take the protection of your personal information very seriously. We want you to feel safe using our products, services and solutions (“Services”). This Privacy Policy informs you of the way in which we collect, use, transfer, and store your personal information when you use our Services, as well as your rights in relation to this data.
+
+Please read this Privacy Policy carefully prior to accessing or availing our Services.
+
+Definition
+In this policy, the following terms shall have the following meanings:
+“Consignee” shall mean the entity (individual/ firm) who is financially responsible (the buyer) for the receipt of a shipment from a Consignor.
+“Consignor” shall mean a person or firm (usually the seller) who avails the Services of Delhivery to deliver a consignment to a Consignee.
+“Data Subject” shall mean any individual person who can be identified, directly or indirectly, via an identifier such as a name, an ID number, contact details, or location data.
+“Third Party Vendors” shall mean any individual or organization providing services to Delhivery on a contractual basis.
+We may update Delhivery’s Privacy Policy from time to time. The revised and most current version of the policy will be updated and posted on the website directly. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+This Privacy Policy is meant to help you understand the following:
+
+Frequently Asked Questions
+
+1. What data do we collect?
+
+Personal Information
+While using our Services, we may ask you to provide us with certain personally identifiable information (also known as PII or Personal Information) that can be used to contact or identify you. Personally Identifiable Information may include, but is not limited to:
+Email address
+First name and Last name
+Phone number
+Address, State, Province, ZIP/Postal code, City
+KYC Details / Documents
+Geographical Location
+If you provide us any Personal Information of another Data Subject, you must ensure that you are authorised to do so and that such person is informed about this Privacy Policy.
+
+You can choose not to provide any Personal Information that we may request of you, but, in general, the Personal Information we request is required in order to provide you with access to and use of the Services, and the lack of such information may prevent us from doing so and impact the service capability and certain features of the Services.
+
+We may ask you to provide certain additional information about yourself on a case to case basis in relation to our Services. It is clarified that any data which does not reveal your specific identity, does not relate to an identified or identifiable individual, information that is publicly available, information about software and hardware usage, information in relation to the products you purchase or who you purchase them from, or any anonymised or aggregated data (“Other Information”) is not considered as PII or Personal Information.
+
+Usage Data
+We may collect information that your browser sends whenever you visit our website or application.
+
+This usage data may include information such as your computer’s internet protocol address (e.g. IP address), browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+When you access our website on a mobile device or access a mobile application, this usage data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
+
+Cookies Data
+Our website, mobile applications and other platforms may use cookies and similar tracking technologies to track the activity on our Services and hold certain information. For instance, cookies help us learn which areas of our website are useful and which areas need improvement.
+Cookies are a standard feature of websites consisting of small data files which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyse our service.
+You can choose whether to accept the use of cookies and similar technologies in general by changing the settings on your browser. However, if you disable cookies, your experience of our Services may be diminished and some features may not work as intended.
+
+Examples of Cookies we use:
+Session Cookies: we use Session Cookies to operate our Service.
+Preference Cookies: we use Preference Cookies to remember your preferences and various settings.
+Security Cookies: we use Secure Cookies for security purposes.
+
+2. When and how do we collect your data?
+We provide a range of Services including (without limitation) various delivery and logistics solutions through innovative technology and connected tools. In order to achieve this, we collect Personal Information and Other Information from you in a number of ways including:
+Directly from you, for example when you use our website, our Services, mobile applications, or when you contact us through phone, WhatsApp, email or chat
+When you make an account with us
+When you are a recipient or sender of goods transported by us or services provided by us
+When you use a tracking ID to track your package
+When you provide us information to verify your identity
+Indirectly, when you purchase products or receive packages from any of our clients with whom we have a legally binding contract
+When you reach out to our customer support teams or when a support ticket is created
+When you provide us feedback
+Our social media pages
+Web forms and surveys
+Off-site services and events that relate to our Services
+When you contact our customer service
+APIs
+At the time of delivering consignments
+Other interactions with you
+3. why do we collect your data?
+We use the collected data to provide, develop and improve the services that we offer you. Some of these purposes include (without limitation) the following:
+Provide you products and services:
+We use the data we collect to:
+provide products and services (such as parcel transportation, warehousing, freight, reverse logistics, cross-border and technology services)
+monitor your usage of our services to understand your requirements better
+perform accounting, auditing, invoicing, reconciliation and collection activities
+send tracking updates and transactional information
+give options for convenient or express delivery
+provide location and tracking features
+provide you related and ancillary functionalities, products, services, solutions, software and technologies developed and offered by us in the ordinary course of our business
+Communicate with you: We use your Personal Information to communicate with you via different channels (such as by phone, email, chat, WhatsApp) in relation to our Services and to follow up with you on any requirements for our services that you have indicated an interest in. We send you transaction related updates through third party platforms such as WhatsApp to update you on the status of your order / transaction. You can always opt-out of such communication, however, you may then be unable to receive real time updates of your order status.
+Troubleshoot and customer support: We use your data to analyze performance, improve our services, detect incorrect addresses, and prevent technical issues. We also use collected data to provide customer support and respond to you about your requests, questions and comments, and update our records about you.
+Identity Proof Details / Documents: We may collect your Aadhaar Card number, PAN Card number, or Driving License number, to verify your identity and prevent misuse of our Services. Please note that you are not obligated to provide your Aadhaar details and you can choose any other document, such as your PAN Card, or Driving License (as per the options provided) as identity proof. If you do choose to provide us with your Aadhaar number, please note that we may use it for identity verification and Aadhaar based authentication with UIDAI through third party service providers. By agreeing to provide your details you expressly consent to our use of the same.
+Customer satisfaction surveys: We may use your Personal Information to conduct polls and surveys and periodically reach out to you via phone, WhatsApp, email or chat to understand your experience in using our services. You may choose to not participate in such surveys by opting out when we reach out to you.
+Personalisation: We use your data to understand your preferences and to enhance and customise your experience by offering tailored services.
+Develop new products and services: We use the data collected (including Personal Information and Other Information) to evaluate, optimise, develop, and improve our business to bring you enhanced, efficient, and cost-effective products and services. This includes developing new products and services, determining the effectiveness of our sales, analysing and enhancing our products, services, websites and applications and improving and maintaining the quality of our customer services.
+Data analysis and improving our services: We use your Personal Information and Other Information to perform market analysis, consumer search and analytics, trend analysis and financial analysis to develop, enhance and improve the Services we provide to you.
+Information about new offers: We would like to send you information about our products and services and any new offers that we think you might benefit from. If you have agreed to receive this information, you may always opt out at a later date by using the “Opt-out” or “Unsubscribe” functionality or by directly contacting us. We may also use your information to contact you with updates to our Services, website or mobile applications.
+Post comments & testimonials: If you allow us to or where we have a legitimate interest, we may use your Personal Information to post comments and testimonials you provide to us on our website and other platforms.
+Fraud prevention: We use the data collected to ensure the security of our networks and information systems, identify and prevent fraud and other prohibited or illegal activities. We may also use scoring methods to identify and manage business risks such as credit risks.
+Comply with legal obligations: In some cases, we collect and use your data to comply with legal and regulatory regulations, including customs and GST requirements. For example, KYC details in some cases are legally required for identity verification.
+Our primary goal is to provide you safe, efficient, smooth, cost-effective and customized experiences when you use our Services. The Personal Information collected allows us to provide the Services that most likely meet your needs. More importantly, while doing so, we collect Personal Information from you that we consider necessary for achieving the above mentioned purposes.
+We may use and disclose Other Information (defined above) and non-personal information for any purpose in accordance with applicable laws.
+
+4. how long do we keep your personal data?
+Please notify us of any changes to your Personal Information. We will take reasonable steps to ensure that your Personal Information is kept accurate and current.
+We will retain your Personal Information for as long as needed to fulfil the purpose for which we collected it and for a reasonable period thereafter to comply with audit, accounting, contractual, technical and legal requirements, for security purposes, and/or to resolve any future disputes. We may retain Other Information, including non-personal information indefinitely or to the extent allowed by applicable law. Our retention guidelines are applicable even where you have chosen to delete your account with us.
+
+5. How do we secure your personal data?
+We take information security very seriously and maintain reasonable administrative, technical and physical safeguards designed to protect the personal information you provide against accidental, unlawful or unauthorised destruction, loss, alteration, access, disclosure or use. Exceptionally, if any Personal Information is present on the package or letter, it may be visible to unauthorized individuals.
+
+Application, data, infrastructure and network security are our key focus areas where data security practices are enforced. We also adhere to international standard certifications to complement the enforced practices. Considering “Right to Privacy” as a fundamental right of an individual, we have adopted various measures to protect privacy.
+Our information security policies and our technical, operational and physical security measures conform to the ISO 27001 standard. Further, you play an important role in keeping your personal information secure. You should not share your user name, OTP, or other security information for your account with anyone.
+Links to Third Party Solutions
+Some solutions may link you or enable you to obtain certain services from third parties, including for the purpose of making a payment or to share content through social media.When you do so, your Personal Information may be collected by those third parties, and not by us. We recommend that when you obtain such solutions from third parties, you review their privacy policy as the security of your data will be subject to their privacy terms rather than this Privacy Policy. We will not be responsible or liable in any manner with respect to how such third-party sites collect and/ or use your information.
+
+
+
+
+
+
+

@@ -40,6 +40,7 @@ Question:
 {question}
 
 Answer:
+```
 
 - Basic context-based QA
 - No explicit grounding or fallback rules
@@ -49,7 +50,7 @@ Answer:
 - Hallucinated answers for unanswerable questions (e.g., courier partner for intracity deliveries)
 - Added external suggestions not present in the documents (e.g., advising users to contact customer service)
 - Gave wrong answer to one of the questions
-```
+
 **Prompt v2 (Improved):**
 
 **Prompt text:**

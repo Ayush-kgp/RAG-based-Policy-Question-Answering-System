@@ -150,9 +150,7 @@ OPENAI_API_KEY=your_api_key_here
 python evaluate.py
 
 ```
-### Key Trade-offs and Future Improvements (polished)
 
-```md
 ## Key Trade-offs and Future Improvements
 
 **FAISS vs. Persistent Vector Databases:**  

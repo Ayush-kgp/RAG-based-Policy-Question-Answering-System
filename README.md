@@ -57,9 +57,9 @@ LLM Answer Generation
 
 ## Data Preparation & Chunking
 
-- **Chunk size:** ~600 characters  
-- **Chunk overlap:** ~100 characters  
-- **Splitter:** RecursiveCharacterTextSplitter  
+- **Chunk size:** ~600 characters was chosen to ensure that each chunk contains enough semantic context (e.g., full policy clauses or rules) without becoming too large and diluting relevance during retrieval.
+- **Chunk overlap:** ~100 characters was added to preserve continuity across adjacent policy sections, preventing loss of important boundary information when clauses span multiple chunks.
+- **Splitter:** RecursiveCharacterTextSplitter was used to respect natural text boundaries (paragraphs and line breaks) rather than splitting arbitrarily, which improves semantic coherence.
 
 ### FAQ Handling
 - FAQ sections are explicitly identified
